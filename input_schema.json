@@ -1,0 +1,15 @@
+{
+  "title": "Upwork Job Search Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "searchTerm": {
+      "title": "Search Term",
+      "type": "string",
+      "description": "Keywords to search for in job listings",
+      "example": "javascript developer",
+      "editor": "textfield"
+    }
+  },
+  "required": ["searchTerm"]
+}

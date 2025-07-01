@@ -1,0 +1,12 @@
+{
+  "actorSpecification": 1,
+  "name": "upwork-job-search",
+  "title": "Upwork Job Search",
+  "description": "Searches Upwork job listings for specific keywords and returns results in JSON format",
+  "version": "1.0.0",
+  "meta": {
+    "templateId": "javascript-puppeteer"
+  },
+  "input": "./input_schema.json",
+  "dockerfile": "./Dockerfile"
+}

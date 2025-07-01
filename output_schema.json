@@ -1,0 +1,49 @@
+{
+  "title": "Upwork Job Search Output",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "description": "Job title"
+      },
+      "description": {
+        "type": "string",
+        "description": "Job description text"
+      },
+      "url": {
+        "type": "string",
+        "description": "Direct link to the job posting"
+      },
+      "proposals": {
+        "type": "string",
+        "description": "Number of proposals submitted"
+      },
+      "budget": {
+        "type": "string",
+        "description": "Job budget or hourly rate"
+      },
+      "posted": {
+        "type": "string",
+        "description": "When the job was posted"
+      },
+      "skills": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Required skills for the job"
+      },
+      "clientRating": {
+        "type": "string",
+        "description": "Client rating or feedback score"
+      },
+      "clientLocation": {
+        "type": "string",
+        "description": "Client's location/country"
+      }
+    },
+    "required": ["title", "description", "url"]
+  }
+}

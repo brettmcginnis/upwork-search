@@ -1,0 +1,14 @@
+create an apify agent that searches job listing for keywords and returns the result in json.
+
+Requirements:
+input:
+- search term as string
+
+output:
+- json of all matching jobs
+- json schema
+  - job description
+  - url (link to this job)
+  - proposals
+  - relevant metadata
+
